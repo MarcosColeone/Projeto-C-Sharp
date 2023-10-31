@@ -53,12 +53,13 @@
             // 
             // btndiabetes
             // 
-            this.btndiabetes.BackColor = System.Drawing.Color.Red;
+            this.btndiabetes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btndiabetes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btndiabetes.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.btndiabetes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
-            this.btndiabetes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.btndiabetes.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
+            this.btndiabetes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
+            this.btndiabetes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btndiabetes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btndiabetes.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndiabetes.ForeColor = System.Drawing.Color.White;
             this.btndiabetes.Location = new System.Drawing.Point(418, 461);
             this.btndiabetes.Name = "btndiabetes";
@@ -70,12 +71,13 @@
             // 
             // btnpressao
             // 
-            this.btnpressao.BackColor = System.Drawing.Color.Red;
+            this.btnpressao.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnpressao.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnpressao.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.btnpressao.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
-            this.btnpressao.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.btnpressao.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
+            this.btnpressao.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
+            this.btnpressao.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnpressao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnpressao.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnpressao.ForeColor = System.Drawing.Color.White;
             this.btnpressao.Location = new System.Drawing.Point(701, 461);
             this.btnpressao.Name = "btnpressao";
@@ -87,12 +89,13 @@
             // 
             // btncolesterol
             // 
-            this.btncolesterol.BackColor = System.Drawing.Color.Red;
+            this.btncolesterol.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btncolesterol.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btncolesterol.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.btncolesterol.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
-            this.btncolesterol.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.btncolesterol.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
+            this.btncolesterol.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
+            this.btncolesterol.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btncolesterol.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncolesterol.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncolesterol.ForeColor = System.Drawing.Color.White;
             this.btncolesterol.Location = new System.Drawing.Point(985, 461);
             this.btncolesterol.Name = "btncolesterol";
@@ -104,12 +107,13 @@
             // 
             // btnlactose
             // 
-            this.btnlactose.BackColor = System.Drawing.Color.Red;
+            this.btnlactose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnlactose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnlactose.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.btnlactose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
-            this.btnlactose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.btnlactose.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
+            this.btnlactose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
+            this.btnlactose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnlactose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnlactose.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnlactose.ForeColor = System.Drawing.Color.White;
             this.btnlactose.Location = new System.Drawing.Point(136, 461);
             this.btnlactose.Name = "btnlactose";
@@ -121,15 +125,16 @@
             // 
             // btncreditos
             // 
-            this.btncreditos.BackColor = System.Drawing.Color.Red;
-            this.btncreditos.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.btncreditos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
-            this.btncreditos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.btncreditos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
+            this.btncreditos.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
+            this.btncreditos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
+            this.btncreditos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btncreditos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncreditos.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncreditos.ForeColor = System.Drawing.Color.White;
-            this.btncreditos.Location = new System.Drawing.Point(570, 612);
+            this.btncreditos.Location = new System.Drawing.Point(570, 610);
             this.btncreditos.Name = "btncreditos";
-            this.btncreditos.Size = new System.Drawing.Size(205, 35);
+            this.btncreditos.Size = new System.Drawing.Size(208, 37);
             this.btncreditos.TabIndex = 5;
             this.btncreditos.Text = "Créditos";
             this.btncreditos.UseVisualStyleBackColor = false;

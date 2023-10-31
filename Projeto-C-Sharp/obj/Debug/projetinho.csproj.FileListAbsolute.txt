@@ -13,3 +13,18 @@ C:\Users\Marcos\Source\Repos\Projeto-C-Sharp\obj\Debug\projetinho.csproj.Generat
 C:\Users\Marcos\Source\Repos\Projeto-C-Sharp\obj\Debug\projetinho.csproj.CoreCompileInputs.cache
 C:\Users\Marcos\Source\Repos\Projeto-C-Sharp\obj\Debug\projetinho.exe
 C:\Users\Marcos\Source\Repos\Projeto-C-Sharp\obj\Debug\projetinho.pdb
+C:\Users\marco\Desktop\Nutri Saúde\Projeto-C-Sharp\bin\Debug\projetinho.exe.config
+C:\Users\marco\Desktop\Nutri Saúde\Projeto-C-Sharp\bin\Debug\projetinho.exe
+C:\Users\marco\Desktop\Nutri Saúde\Projeto-C-Sharp\bin\Debug\projetinho.pdb
+C:\Users\marco\Desktop\Nutri Saúde\Projeto-C-Sharp\obj\Debug\projetinho.csproj.AssemblyReference.cache
+C:\Users\marco\Desktop\Nutri Saúde\Projeto-C-Sharp\obj\Debug\projetinho.Colesterol.resources
+C:\Users\marco\Desktop\Nutri Saúde\Projeto-C-Sharp\obj\Debug\projetinho.Creditos.resources
+C:\Users\marco\Desktop\Nutri Saúde\Projeto-C-Sharp\obj\Debug\projetinho.Diabetes.resources
+C:\Users\marco\Desktop\Nutri Saúde\Projeto-C-Sharp\obj\Debug\projetinho.PressaoAlta.resources
+C:\Users\marco\Desktop\Nutri Saúde\Projeto-C-Sharp\obj\Debug\projetinho.TelaInicial.resources
+C:\Users\marco\Desktop\Nutri Saúde\Projeto-C-Sharp\obj\Debug\projetinho.IntoleranciaLactose.resources
+C:\Users\marco\Desktop\Nutri Saúde\Projeto-C-Sharp\obj\Debug\projetinho.Properties.Resources.resources
+C:\Users\marco\Desktop\Nutri Saúde\Projeto-C-Sharp\obj\Debug\projetinho.csproj.GenerateResource.cache
+C:\Users\marco\Desktop\Nutri Saúde\Projeto-C-Sharp\obj\Debug\projetinho.csproj.CoreCompileInputs.cache
+C:\Users\marco\Desktop\Nutri Saúde\Projeto-C-Sharp\obj\Debug\projetinho.exe
+C:\Users\marco\Desktop\Nutri Saúde\Projeto-C-Sharp\obj\Debug\projetinho.pdb
