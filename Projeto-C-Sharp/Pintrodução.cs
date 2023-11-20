@@ -16,5 +16,16 @@ namespace projetinho
         {
             InitializeComponent();
         }
+
+        private void Pintrodução_Load(object sender, EventArgs e)
+        {
+            this.FormBorderStyle = FormBorderStyle.FixedDialog;
+            this.ControlBox = false;
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

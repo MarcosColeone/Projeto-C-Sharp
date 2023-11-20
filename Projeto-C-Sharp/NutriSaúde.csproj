@@ -1,0 +1,708 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D924029E-C360-4AC1-BA0B-0013468854DD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>NutriSaúde</RootNamespace>
+    <AssemblyName>NutriSaúde</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cintrodução2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cintrodução2.Designer.cs">
+      <DependentUpon>Cintrodução2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cintrodução3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cintrodução3.Designer.cs">
+      <DependentUpon>Cintrodução3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cintrodução4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cintrodução4.Designer.cs">
+      <DependentUpon>Cintrodução4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cfatoresderisco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cfatoresderisco.Designer.cs">
+      <DependentUpon>Cfatoresderisco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cintrodução.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cintrodução.Designer.cs">
+      <DependentUpon>Cintrodução.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Corientações.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Corientações.Designer.cs">
+      <DependentUpon>Corientações.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Colesterol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Colesterol.Designer.cs">
+      <DependentUpon>Colesterol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Corientações2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Corientações2.Designer.cs">
+      <DependentUpon>Corientações2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Corientações3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Corientações3.Designer.cs">
+      <DependentUpon>Corientações3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Corientações4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Corientações4.Designer.cs">
+      <DependentUpon>Corientações4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Creditos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Creditos.Designer.cs">
+      <DependentUpon>Creditos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dabobrinha2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dabobrinha2.Designer.cs">
+      <DependentUpon>Dabobrinha2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dbolo1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dbolo1.Designer.cs">
+      <DependentUpon>Dbolo1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dcaponata1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dcaponata1.Designer.cs">
+      <DependentUpon>Dcaponata1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dcaponata2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dcaponata2.Designer.cs">
+      <DependentUpon>Dcaponata2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dorientações.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dorientações.Designer.cs">
+      <DependentUpon>Dorientações.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dorientações2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dorientações2.Designer.cs">
+      <DependentUpon>Dorientações2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dorientações3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dorientações3.Designer.cs">
+      <DependentUpon>Dorientações3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dorientações4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dorientações4.Designer.cs">
+      <DependentUpon>Dorientações4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dintrodução.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dintrodução.Designer.cs">
+      <DependentUpon>Dintrodução.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dbolo2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dbolo2.Designer.cs">
+      <DependentUpon>Dbolo2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dpanqueca1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dpanqueca1.Designer.cs">
+      <DependentUpon>Dpanqueca1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dpanqueca2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dpanqueca2.Designer.cs">
+      <DependentUpon>Dpanqueca2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dreceitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dreceitas.Designer.cs">
+      <DependentUpon>Dreceitas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dabobrinha1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dabobrinha1.Designer.cs">
+      <DependentUpon>Dabobrinha1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Drefresco1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drefresco1.Designer.cs">
+      <DependentUpon>Drefresco1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Drefresco2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drefresco2.Designer.cs">
+      <DependentUpon>Drefresco2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dsorvete1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dsorvete1.Designer.cs">
+      <DependentUpon>Dsorvete1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dsorvete2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dsorvete2.Designer.cs">
+      <DependentUpon>Dsorvete2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ILcausas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ILcausas.Designer.cs">
+      <DependentUpon>ILcausas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ILcoxinha1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ILcoxinha1.Designer.cs">
+      <DependentUpon>ILcoxinha1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ILcoxinha2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ILcoxinha2.Designer.cs">
+      <DependentUpon>ILcoxinha2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ILcoxinha3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ILcoxinha3.Designer.cs">
+      <DependentUpon>ILcoxinha3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ILcoxinha4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ILcoxinha4.Designer.cs">
+      <DependentUpon>ILcoxinha4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ILcrepioca3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ILcrepioca3.Designer.cs">
+      <DependentUpon>ILcrepioca3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ILescondido1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ILescondido1.Designer.cs">
+      <DependentUpon>ILescondido1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ILescondido2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ILescondido2.Designer.cs">
+      <DependentUpon>ILescondido2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ILescondido3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ILescondido3.Designer.cs">
+      <DependentUpon>ILescondido3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ILescondido4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ILescondido4.Designer.cs">
+      <DependentUpon>ILescondido4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ILintrodução2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ILintrodução2.Designer.cs">
+      <DependentUpon>ILintrodução2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ILsintomas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ILsintomas.Designer.cs">
+      <DependentUpon>ILsintomas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ILintrodução.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ILintrodução.Designer.cs">
+      <DependentUpon>ILintrodução.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ILdiagnostico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ILdiagnostico.Designer.cs">
+      <DependentUpon>ILdiagnostico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ILreceitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ILreceitas.Designer.cs">
+      <DependentUpon>ILreceitas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ILpossoconsumir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ILpossoconsumir.Designer.cs">
+      <DependentUpon>ILpossoconsumir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ILcrepioca1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ILcrepioca1.Designer.cs">
+      <DependentUpon>ILcrepioca1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ILcrepioca2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ILcrepioca2.Designer.cs">
+      <DependentUpon>ILcrepioca2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ILtorta1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ILtorta1.Designer.cs">
+      <DependentUpon>ILtorta1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ILtorta2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ILtorta2.Designer.cs">
+      <DependentUpon>ILtorta2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ILtorta3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ILtorta3.Designer.cs">
+      <DependentUpon>ILtorta3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pbolo2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pbolo2.Designer.cs">
+      <DependentUpon>Pbolo2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pnuggets1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pnuggets1.Designer.cs">
+      <DependentUpon>Pnuggets1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pnuggets2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pnuggets2.Designer.cs">
+      <DependentUpon>Pnuggets2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Porientações1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Porientações1.Designer.cs">
+      <DependentUpon>Porientações1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Porientações2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Porientações2.Designer.cs">
+      <DependentUpon>Porientações2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Porientações3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Porientações3.Designer.cs">
+      <DependentUpon>Porientações3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pintrodução.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pintrodução.Designer.cs">
+      <DependentUpon>Pintrodução.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Porientações4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Porientações4.Designer.cs">
+      <DependentUpon>Porientações4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ppaodequeijo1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ppaodequeijo1.Designer.cs">
+      <DependentUpon>Ppaodequeijo1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ppaodequeijo2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ppaodequeijo2.Designer.cs">
+      <DependentUpon>Ppaodequeijo2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ppizza1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ppizza1.Designer.cs">
+      <DependentUpon>Ppizza1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ppizza2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ppizza2.Designer.cs">
+      <DependentUpon>Ppizza2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Psal1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Psal1.Designer.cs">
+      <DependentUpon>Psal1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Preceitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Preceitas.Designer.cs">
+      <DependentUpon>Preceitas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Psal2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Psal2.Designer.cs">
+      <DependentUpon>Psal2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pbolo1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pbolo1.Designer.cs">
+      <DependentUpon>Pbolo1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressaoAlta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressaoAlta.Designer.cs">
+      <DependentUpon>PressaoAlta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaInicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaInicial.Designer.cs">
+      <DependentUpon>TelaInicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Diabetes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Diabetes.Designer.cs">
+      <DependentUpon>Diabetes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IntoleranciaLactose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IntoleranciaLactose.Designer.cs">
+      <DependentUpon>IntoleranciaLactose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Cfatoresderisco.resx">
+      <DependentUpon>Cfatoresderisco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cintrodução.resx">
+      <DependentUpon>Cintrodução.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cintrodução2.resx">
+      <DependentUpon>Cintrodução2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cintrodução3.resx">
+      <DependentUpon>Cintrodução3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cintrodução4.resx">
+      <DependentUpon>Cintrodução4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Colesterol.resx">
+      <DependentUpon>Colesterol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Corientações.resx">
+      <DependentUpon>Corientações.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Corientações2.resx">
+      <DependentUpon>Corientações2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Corientações3.resx">
+      <DependentUpon>Corientações3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Corientações4.resx">
+      <DependentUpon>Corientações4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Creditos.resx">
+      <DependentUpon>Creditos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dabobrinha1.resx">
+      <DependentUpon>Dabobrinha1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dabobrinha2.resx">
+      <DependentUpon>Dabobrinha2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dbolo1.resx">
+      <DependentUpon>Dbolo1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dbolo2.resx">
+      <DependentUpon>Dbolo2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dcaponata1.resx">
+      <DependentUpon>Dcaponata1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dcaponata2.resx">
+      <DependentUpon>Dcaponata2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diabetes.resx">
+      <DependentUpon>Diabetes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dintrodução.resx">
+      <DependentUpon>Dintrodução.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dorientações.resx">
+      <DependentUpon>Dorientações.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dorientações2.resx">
+      <DependentUpon>Dorientações2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dorientações3.resx">
+      <DependentUpon>Dorientações3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dorientações4.resx">
+      <DependentUpon>Dorientações4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dpanqueca1.resx">
+      <DependentUpon>Dpanqueca1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dpanqueca2.resx">
+      <DependentUpon>Dpanqueca2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dreceitas.resx">
+      <DependentUpon>Dreceitas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drefresco1.resx">
+      <DependentUpon>Drefresco1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drefresco2.resx">
+      <DependentUpon>Drefresco2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dsorvete1.resx">
+      <DependentUpon>Dsorvete1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dsorvete2.resx">
+      <DependentUpon>Dsorvete2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ILcausas.resx">
+      <DependentUpon>ILcausas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ILcoxinha1.resx">
+      <DependentUpon>ILcoxinha1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ILcoxinha2.resx">
+      <DependentUpon>ILcoxinha2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ILcoxinha3.resx">
+      <DependentUpon>ILcoxinha3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ILcoxinha4.resx">
+      <DependentUpon>ILcoxinha4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ILcrepioca1.resx">
+      <DependentUpon>ILcrepioca1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ILcrepioca2.resx">
+      <DependentUpon>ILcrepioca2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ILcrepioca3.resx">
+      <DependentUpon>ILcrepioca3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ILdiagnostico.resx">
+      <DependentUpon>ILdiagnostico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ILescondido1.resx">
+      <DependentUpon>ILescondido1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ILescondido2.resx">
+      <DependentUpon>ILescondido2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ILescondido3.resx">
+      <DependentUpon>ILescondido3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ILescondido4.resx">
+      <DependentUpon>ILescondido4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ILintrodução.resx">
+      <DependentUpon>ILintrodução.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ILintrodução2.resx">
+      <DependentUpon>ILintrodução2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ILpossoconsumir.resx">
+      <DependentUpon>ILpossoconsumir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ILreceitas.resx">
+      <DependentUpon>ILreceitas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ILsintomas.resx">
+      <DependentUpon>ILsintomas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ILtorta1.resx">
+      <DependentUpon>ILtorta1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ILtorta2.resx">
+      <DependentUpon>ILtorta2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ILtorta3.resx">
+      <DependentUpon>ILtorta3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pbolo1.resx">
+      <DependentUpon>Pbolo1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pbolo2.resx">
+      <DependentUpon>Pbolo2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pintrodução.resx">
+      <DependentUpon>Pintrodução.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pnuggets1.resx">
+      <DependentUpon>Pnuggets1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pnuggets2.resx">
+      <DependentUpon>Pnuggets2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Porientações1.resx">
+      <DependentUpon>Porientações1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Porientações2.resx">
+      <DependentUpon>Porientações2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Porientações3.resx">
+      <DependentUpon>Porientações3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Porientações4.resx">
+      <DependentUpon>Porientações4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ppaodequeijo1.resx">
+      <DependentUpon>Ppaodequeijo1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ppaodequeijo2.resx">
+      <DependentUpon>Ppaodequeijo2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ppizza1.resx">
+      <DependentUpon>Ppizza1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ppizza2.resx">
+      <DependentUpon>Ppizza2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preceitas.resx">
+      <DependentUpon>Preceitas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressaoAlta.resx">
+      <DependentUpon>PressaoAlta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Psal1.resx">
+      <DependentUpon>Psal1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Psal2.resx">
+      <DependentUpon>Psal2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaInicial.resx">
+      <DependentUpon>TelaInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IntoleranciaLactose.resx">
+      <DependentUpon>IntoleranciaLactose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01. Tela inicial.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

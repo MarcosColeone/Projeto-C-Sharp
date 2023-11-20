@@ -16,5 +16,23 @@ namespace projetinho
         {
             InitializeComponent();
         }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnILintrodução2_Click(object sender, EventArgs e)
+        {
+            ILintrodução2 novaJanela = new ILintrodução2();
+            novaJanela.Text = "Introdução";
+            novaJanela.Show();
+        }
+
+        private void ILintrodução_Load(object sender, EventArgs e)
+        {
+            this.FormBorderStyle = FormBorderStyle.FixedDialog;
+            this.ControlBox = false;
+        }
     }
 }

@@ -31,5 +31,31 @@ namespace projetinho
             this.FormBorderStyle = FormBorderStyle.FixedDialog;
             this.ControlBox = false;
         }
+
+        private void btnCintrodução_Click(object sender, EventArgs e)
+        {
+            Cintrodução novaJanela = new Cintrodução();
+            novaJanela.Text = "Introdução";
+            novaJanela.Show();
+        }
+
+        private void btnCfatoresderisco_Click(object sender, EventArgs e)
+        {
+            Cfatoresderisco novaJanela = new Cfatoresderisco();
+            novaJanela.Text = "Fatores de Risco";
+            novaJanela.Show();
+        }
+
+        private void btnCorientações_Click(object sender, EventArgs e)
+        {
+            Corientações novaJanela = new Corientações();
+            novaJanela.Text = "Orientções Nutricionais";
+            novaJanela.Show();
+        }
+
+        private void Colesterol_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

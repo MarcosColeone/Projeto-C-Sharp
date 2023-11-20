@@ -31,5 +31,26 @@ namespace projetinho
             this.FormBorderStyle = FormBorderStyle.FixedDialog;
             this.ControlBox = false;
         }
+
+        private void btnDintrodução_Click(object sender, EventArgs e)
+        {
+            Dintrodução novaJanela = new Dintrodução();
+            novaJanela.Text = "Introdução";
+            novaJanela.Show();
+        }
+
+        private void btnDorientações_Click(object sender, EventArgs e)
+        {
+            Dorientações novaJanela = new Dorientações();
+            novaJanela.Text = "Orientações para o tratamento";
+            novaJanela.Show();
+        }
+
+        private void btnDreceitas_Click(object sender, EventArgs e)
+        {
+            Dreceitas novaJanela = new Dreceitas();
+            novaJanela.Text = "Receitas";
+            novaJanela.Show();
+        }
     }
 }
