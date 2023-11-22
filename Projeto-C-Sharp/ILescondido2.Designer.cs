@@ -32,6 +32,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnClose = new System.Windows.Forms.Button();
             this.btnILescondido3 = new System.Windows.Forms.Button();
+            this.btnMenu = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,9 +52,9 @@
             this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Location = new System.Drawing.Point(60, 44);
+            this.btnClose.Location = new System.Drawing.Point(43, 660);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(42, 31);
+            this.btnClose.Size = new System.Drawing.Size(29, 23);
             this.btnClose.TabIndex = 9;
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -65,12 +66,26 @@
             this.btnILescondido3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnILescondido3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnILescondido3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnILescondido3.Location = new System.Drawing.Point(1277, 658);
+            this.btnILescondido3.Location = new System.Drawing.Point(1277, 660);
             this.btnILescondido3.Name = "btnILescondido3";
-            this.btnILescondido3.Size = new System.Drawing.Size(30, 20);
+            this.btnILescondido3.Size = new System.Drawing.Size(29, 23);
             this.btnILescondido3.TabIndex = 10;
             this.btnILescondido3.UseVisualStyleBackColor = false;
             this.btnILescondido3.Click += new System.EventHandler(this.btnILescondido3_Click);
+            // 
+            // btnMenu
+            // 
+            this.btnMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
+            this.btnMenu.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
+            this.btnMenu.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
+            this.btnMenu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
+            this.btnMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMenu.Location = new System.Drawing.Point(40, 41);
+            this.btnMenu.Name = "btnMenu";
+            this.btnMenu.Size = new System.Drawing.Size(42, 31);
+            this.btnMenu.TabIndex = 11;
+            this.btnMenu.UseVisualStyleBackColor = false;
+            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
             // 
             // ILescondido2
             // 
@@ -78,6 +93,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1350, 729);
             this.ControlBox = false;
+            this.Controls.Add(this.btnMenu);
             this.Controls.Add(this.btnILescondido3);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.pictureBox1);
@@ -97,5 +113,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnILescondido3;
+        private System.Windows.Forms.Button btnMenu;
     }
 }

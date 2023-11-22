@@ -32,6 +32,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnClose = new System.Windows.Forms.Button();
             this.btnCorientações4 = new System.Windows.Forms.Button();
+            this.btnMenu = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,9 +52,9 @@
             this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Location = new System.Drawing.Point(63, 46);
+            this.btnClose.Location = new System.Drawing.Point(45, 662);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(40, 29);
+            this.btnClose.Size = new System.Drawing.Size(29, 21);
             this.btnClose.TabIndex = 6;
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -65,12 +66,26 @@
             this.btnCorientações4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnCorientações4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnCorientações4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCorientações4.Location = new System.Drawing.Point(1277, 660);
+            this.btnCorientações4.Location = new System.Drawing.Point(1277, 662);
             this.btnCorientações4.Name = "btnCorientações4";
-            this.btnCorientações4.Size = new System.Drawing.Size(31, 17);
+            this.btnCorientações4.Size = new System.Drawing.Size(30, 21);
             this.btnCorientações4.TabIndex = 7;
             this.btnCorientações4.UseVisualStyleBackColor = false;
             this.btnCorientações4.Click += new System.EventHandler(this.btnCorientações4_Click_1);
+            // 
+            // btnMenu
+            // 
+            this.btnMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
+            this.btnMenu.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
+            this.btnMenu.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
+            this.btnMenu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
+            this.btnMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMenu.Location = new System.Drawing.Point(41, 42);
+            this.btnMenu.Name = "btnMenu";
+            this.btnMenu.Size = new System.Drawing.Size(40, 32);
+            this.btnMenu.TabIndex = 8;
+            this.btnMenu.UseVisualStyleBackColor = false;
+            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
             // 
             // Corientações3
             // 
@@ -78,6 +93,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1350, 729);
             this.ControlBox = false;
+            this.Controls.Add(this.btnMenu);
             this.Controls.Add(this.btnCorientações4);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.pictureBox1);
@@ -97,5 +113,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnCorientações4;
+        private System.Windows.Forms.Button btnMenu;
     }
 }

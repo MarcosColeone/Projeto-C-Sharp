@@ -51,7 +51,7 @@
             this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Location = new System.Drawing.Point(60, 45);
+            this.btnClose.Location = new System.Drawing.Point(40, 43);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(42, 29);
             this.btnClose.TabIndex = 9;
@@ -65,9 +65,9 @@
             this.btnILtorta2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnILtorta2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnILtorta2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnILtorta2.Location = new System.Drawing.Point(1276, 659);
+            this.btnILtorta2.Location = new System.Drawing.Point(1277, 662);
             this.btnILtorta2.Name = "btnILtorta2";
-            this.btnILtorta2.Size = new System.Drawing.Size(30, 20);
+            this.btnILtorta2.Size = new System.Drawing.Size(29, 22);
             this.btnILtorta2.TabIndex = 10;
             this.btnILtorta2.UseVisualStyleBackColor = false;
             this.btnILtorta2.Click += new System.EventHandler(this.btnILtorta2_Click);

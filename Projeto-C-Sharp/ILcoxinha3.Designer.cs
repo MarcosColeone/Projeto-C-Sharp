@@ -32,6 +32,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnILcoxinha4 = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
+            this.btnMenu = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,9 +52,9 @@
             this.btnILcoxinha4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnILcoxinha4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnILcoxinha4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnILcoxinha4.Location = new System.Drawing.Point(1277, 659);
+            this.btnILcoxinha4.Location = new System.Drawing.Point(1277, 662);
             this.btnILcoxinha4.Name = "btnILcoxinha4";
-            this.btnILcoxinha4.Size = new System.Drawing.Size(30, 19);
+            this.btnILcoxinha4.Size = new System.Drawing.Size(30, 21);
             this.btnILcoxinha4.TabIndex = 11;
             this.btnILcoxinha4.UseVisualStyleBackColor = false;
             this.btnILcoxinha4.Click += new System.EventHandler(this.btnILcoxinha4_Click);
@@ -65,12 +66,26 @@
             this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Location = new System.Drawing.Point(60, 45);
+            this.btnClose.Location = new System.Drawing.Point(43, 662);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(42, 29);
+            this.btnClose.Size = new System.Drawing.Size(29, 21);
             this.btnClose.TabIndex = 12;
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // btnMenu
+            // 
+            this.btnMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
+            this.btnMenu.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
+            this.btnMenu.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
+            this.btnMenu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
+            this.btnMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMenu.Location = new System.Drawing.Point(38, 44);
+            this.btnMenu.Name = "btnMenu";
+            this.btnMenu.Size = new System.Drawing.Size(42, 29);
+            this.btnMenu.TabIndex = 13;
+            this.btnMenu.UseVisualStyleBackColor = false;
+            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
             // 
             // ILcoxinha3
             // 
@@ -78,6 +93,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1350, 729);
             this.ControlBox = false;
+            this.Controls.Add(this.btnMenu);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnILcoxinha4);
             this.Controls.Add(this.pictureBox1);
@@ -98,5 +114,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnILcoxinha4;
         private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.Button btnMenu;
     }
 }

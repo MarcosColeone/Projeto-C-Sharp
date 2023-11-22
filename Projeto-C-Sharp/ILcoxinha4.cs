@@ -27,5 +27,17 @@ namespace projetinho
             this.FormBorderStyle = FormBorderStyle.FixedDialog;
             this.ControlBox = false;
         }
+
+        private void btnMenu_Click(object sender, EventArgs e)
+        {
+            if (Application.OpenForms.Count > 1)
+            {
+                // Itera sobre as formas abertas, exceto a primeira (principal)
+                for (int intIndex = Application.OpenForms.Count - 1; intIndex > 2; intIndex--)
+                {
+                    Application.OpenForms[intIndex].Close();
+                }
+            }
+        }
     }
 }

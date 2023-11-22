@@ -51,7 +51,7 @@
             this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Location = new System.Drawing.Point(60, 46);
+            this.btnClose.Location = new System.Drawing.Point(40, 44);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(41, 29);
             this.btnClose.TabIndex = 15;
@@ -65,9 +65,9 @@
             this.btnPsal2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnPsal2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnPsal2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPsal2.Location = new System.Drawing.Point(1276, 659);
+            this.btnPsal2.Location = new System.Drawing.Point(1276, 662);
             this.btnPsal2.Name = "btnPsal2";
-            this.btnPsal2.Size = new System.Drawing.Size(30, 20);
+            this.btnPsal2.Size = new System.Drawing.Size(30, 22);
             this.btnPsal2.TabIndex = 16;
             this.btnPsal2.UseVisualStyleBackColor = false;
             this.btnPsal2.Click += new System.EventHandler(this.btnPsal2_Click);

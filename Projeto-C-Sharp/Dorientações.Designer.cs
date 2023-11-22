@@ -51,9 +51,9 @@
             this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Location = new System.Drawing.Point(60, 43);
+            this.btnClose.Location = new System.Drawing.Point(41, 41);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(42, 29);
+            this.btnClose.Size = new System.Drawing.Size(42, 30);
             this.btnClose.TabIndex = 6;
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -65,9 +65,9 @@
             this.btnDorientações2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnDorientações2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnDorientações2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDorientações2.Location = new System.Drawing.Point(1276, 657);
+            this.btnDorientações2.Location = new System.Drawing.Point(1276, 659);
             this.btnDorientações2.Name = "btnDorientações2";
-            this.btnDorientações2.Size = new System.Drawing.Size(29, 21);
+            this.btnDorientações2.Size = new System.Drawing.Size(29, 22);
             this.btnDorientações2.TabIndex = 7;
             this.btnDorientações2.UseVisualStyleBackColor = false;
             this.btnDorientações2.Click += new System.EventHandler(this.btnDorientações2_Click);

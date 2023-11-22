@@ -51,9 +51,9 @@
             this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Location = new System.Drawing.Point(61, 46);
+            this.btnClose.Location = new System.Drawing.Point(42, 43);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(40, 29);
+            this.btnClose.Size = new System.Drawing.Size(40, 30);
             this.btnClose.TabIndex = 7;
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -65,9 +65,9 @@
             this.btnDpanqueca2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnDpanqueca2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnDpanqueca2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDpanqueca2.Location = new System.Drawing.Point(1277, 659);
+            this.btnDpanqueca2.Location = new System.Drawing.Point(1277, 662);
             this.btnDpanqueca2.Name = "btnDpanqueca2";
-            this.btnDpanqueca2.Size = new System.Drawing.Size(30, 19);
+            this.btnDpanqueca2.Size = new System.Drawing.Size(30, 21);
             this.btnDpanqueca2.TabIndex = 8;
             this.btnDpanqueca2.UseVisualStyleBackColor = false;
             this.btnDpanqueca2.Click += new System.EventHandler(this.btnDpanqueca2_Click);

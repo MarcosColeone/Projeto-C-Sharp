@@ -50,7 +50,7 @@
             this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Location = new System.Drawing.Point(60, 45);
+            this.btnClose.Location = new System.Drawing.Point(40, 43);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(41, 28);
             this.btnClose.TabIndex = 3;

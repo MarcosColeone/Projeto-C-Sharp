@@ -51,7 +51,7 @@
             this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Location = new System.Drawing.Point(61, 45);
+            this.btnClose.Location = new System.Drawing.Point(41, 43);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(40, 29);
             this.btnClose.TabIndex = 6;
@@ -65,9 +65,9 @@
             this.btnDbolo2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnDbolo2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnDbolo2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDbolo2.Location = new System.Drawing.Point(1277, 658);
+            this.btnDbolo2.Location = new System.Drawing.Point(1277, 662);
             this.btnDbolo2.Name = "btnDbolo2";
-            this.btnDbolo2.Size = new System.Drawing.Size(29, 20);
+            this.btnDbolo2.Size = new System.Drawing.Size(29, 21);
             this.btnDbolo2.TabIndex = 7;
             this.btnDbolo2.UseVisualStyleBackColor = false;
             this.btnDbolo2.Click += new System.EventHandler(this.btnDbolo2_Click);

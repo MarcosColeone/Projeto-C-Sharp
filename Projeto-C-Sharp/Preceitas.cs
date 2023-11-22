@@ -56,5 +56,11 @@ namespace projetinho
             novaJanela.Text = "Pizza";
             novaJanela.Show();
         }
+
+        private void Preceitas_Load(object sender, EventArgs e)
+        {
+            this.FormBorderStyle = FormBorderStyle.FixedDialog;
+            this.ControlBox = false;
+        }
     }
 }

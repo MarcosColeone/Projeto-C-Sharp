@@ -38,7 +38,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-1, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1349, 725);
             this.pictureBox1.TabIndex = 0;
@@ -51,9 +51,9 @@
             this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Location = new System.Drawing.Point(60, 46);
+            this.btnClose.Location = new System.Drawing.Point(41, 44);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(41, 28);
+            this.btnClose.Size = new System.Drawing.Size(41, 29);
             this.btnClose.TabIndex = 4;
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -65,9 +65,9 @@
             this.btnPorientações2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnPorientações2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnPorientações2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPorientações2.Location = new System.Drawing.Point(1276, 659);
+            this.btnPorientações2.Location = new System.Drawing.Point(1276, 662);
             this.btnPorientações2.Name = "btnPorientações2";
-            this.btnPorientações2.Size = new System.Drawing.Size(30, 20);
+            this.btnPorientações2.Size = new System.Drawing.Size(30, 22);
             this.btnPorientações2.TabIndex = 10;
             this.btnPorientações2.UseVisualStyleBackColor = false;
             this.btnPorientações2.Click += new System.EventHandler(this.btnPorientações2_Click);

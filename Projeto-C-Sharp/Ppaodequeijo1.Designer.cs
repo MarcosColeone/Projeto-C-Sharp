@@ -51,9 +51,9 @@
             this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Location = new System.Drawing.Point(61, 46);
+            this.btnClose.Location = new System.Drawing.Point(40, 43);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(41, 25);
+            this.btnClose.Size = new System.Drawing.Size(41, 29);
             this.btnClose.TabIndex = 12;
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -65,9 +65,9 @@
             this.btnPpaodequeijo2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnPpaodequeijo2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnPpaodequeijo2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPpaodequeijo2.Location = new System.Drawing.Point(1276, 659);
+            this.btnPpaodequeijo2.Location = new System.Drawing.Point(1275, 662);
             this.btnPpaodequeijo2.Name = "btnPpaodequeijo2";
-            this.btnPpaodequeijo2.Size = new System.Drawing.Size(30, 20);
+            this.btnPpaodequeijo2.Size = new System.Drawing.Size(30, 21);
             this.btnPpaodequeijo2.TabIndex = 13;
             this.btnPpaodequeijo2.UseVisualStyleBackColor = false;
             this.btnPpaodequeijo2.Click += new System.EventHandler(this.btnPpaodequeijo2_Click);

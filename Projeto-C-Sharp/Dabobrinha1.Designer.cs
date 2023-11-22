@@ -38,7 +38,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, -1);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1349, 725);
             this.pictureBox1.TabIndex = 0;
@@ -51,9 +51,9 @@
             this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Location = new System.Drawing.Point(58, 45);
+            this.btnClose.Location = new System.Drawing.Point(39, 43);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(44, 28);
+            this.btnClose.Size = new System.Drawing.Size(42, 31);
             this.btnClose.TabIndex = 9;
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -65,9 +65,9 @@
             this.btnDabobrinha.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnDabobrinha.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnDabobrinha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDabobrinha.Location = new System.Drawing.Point(1277, 658);
+            this.btnDabobrinha.Location = new System.Drawing.Point(1277, 662);
             this.btnDabobrinha.Name = "btnDabobrinha";
-            this.btnDabobrinha.Size = new System.Drawing.Size(30, 18);
+            this.btnDabobrinha.Size = new System.Drawing.Size(30, 21);
             this.btnDabobrinha.TabIndex = 10;
             this.btnDabobrinha.UseVisualStyleBackColor = false;
             this.btnDabobrinha.Click += new System.EventHandler(this.btnDabobrinha_Click);

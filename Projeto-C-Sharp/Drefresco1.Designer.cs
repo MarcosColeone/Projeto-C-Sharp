@@ -51,9 +51,9 @@
             this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Location = new System.Drawing.Point(61, 46);
+            this.btnClose.Location = new System.Drawing.Point(40, 43);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(40, 29);
+            this.btnClose.Size = new System.Drawing.Size(40, 30);
             this.btnClose.TabIndex = 6;
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -65,9 +65,9 @@
             this.btnDrefresco2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnDrefresco2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnDrefresco2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDrefresco2.Location = new System.Drawing.Point(1275, 659);
+            this.btnDrefresco2.Location = new System.Drawing.Point(1274, 662);
             this.btnDrefresco2.Name = "btnDrefresco2";
-            this.btnDrefresco2.Size = new System.Drawing.Size(30, 20);
+            this.btnDrefresco2.Size = new System.Drawing.Size(30, 22);
             this.btnDrefresco2.TabIndex = 7;
             this.btnDrefresco2.UseVisualStyleBackColor = false;
             this.btnDrefresco2.Click += new System.EventHandler(this.btnDrefresco2_Click);

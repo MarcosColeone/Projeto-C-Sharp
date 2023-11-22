@@ -51,7 +51,7 @@
             this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Location = new System.Drawing.Point(61, 46);
+            this.btnClose.Location = new System.Drawing.Point(40, 43);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(41, 31);
             this.btnClose.TabIndex = 10;
@@ -65,7 +65,7 @@
             this.btnPnuggets2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnPnuggets2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnPnuggets2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPnuggets2.Location = new System.Drawing.Point(1276, 659);
+            this.btnPnuggets2.Location = new System.Drawing.Point(1277, 662);
             this.btnPnuggets2.Name = "btnPnuggets2";
             this.btnPnuggets2.Size = new System.Drawing.Size(30, 20);
             this.btnPnuggets2.TabIndex = 12;

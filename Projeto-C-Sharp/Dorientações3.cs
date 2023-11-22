@@ -34,5 +34,17 @@ namespace projetinho
             novaJanela.Text = "Orientações Nutricionais";
             novaJanela.Show();
         }
+
+        private void btnMenu_Click(object sender, EventArgs e)
+        {
+            if (Application.OpenForms.Count > 1)
+            {
+                // Itera sobre as formas abertas, exceto a primeira (principal)
+                for (int intIndex = Application.OpenForms.Count - 1; intIndex > 1; intIndex--)
+                {
+                    Application.OpenForms[intIndex].Close();
+                }
+            }
+        }
     }
 }

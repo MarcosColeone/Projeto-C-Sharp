@@ -51,9 +51,9 @@
             this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Location = new System.Drawing.Point(60, 45);
+            this.btnClose.Location = new System.Drawing.Point(39, 43);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(42, 33);
+            this.btnClose.Size = new System.Drawing.Size(42, 30);
             this.btnClose.TabIndex = 10;
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -65,9 +65,9 @@
             this.btnILcrepioca2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnILcrepioca2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnILcrepioca2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnILcrepioca2.Location = new System.Drawing.Point(1276, 660);
+            this.btnILcrepioca2.Location = new System.Drawing.Point(1276, 662);
             this.btnILcrepioca2.Name = "btnILcrepioca2";
-            this.btnILcrepioca2.Size = new System.Drawing.Size(30, 19);
+            this.btnILcrepioca2.Size = new System.Drawing.Size(30, 21);
             this.btnILcrepioca2.TabIndex = 11;
             this.btnILcrepioca2.UseVisualStyleBackColor = false;
             this.btnILcrepioca2.Click += new System.EventHandler(this.btnILcrepioca2_Click);

@@ -19,7 +19,14 @@ namespace projetinho
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            this.Close();
+            if (Application.OpenForms.Count > 1)
+            {
+                // Itera sobre as formas abertas, exceto a primeira (principal)
+                for (int intIndex = Application.OpenForms.Count - 1; intIndex > 2; intIndex--)
+                {
+                    Application.OpenForms[intIndex].Close();
+                }
+            }
         }
 
         private void Dbolo2_Load(object sender, EventArgs e)
@@ -27,5 +34,20 @@ namespace projetinho
             this.FormBorderStyle = FormBorderStyle.FixedDialog;
             this.ControlBox = false;
         }
+
+        private void btnMenu_Click(object sender, EventArgs e)
+        {
+            if (Application.OpenForms.Count > 1)
+            {
+                // Itera sobre as formas abertas, exceto a primeira (principal)
+                for (int intIndex = Application.OpenForms.Count - 1; intIndex > 2; intIndex--)
+                {
+                    Application.OpenForms[intIndex].Close();
+                }
+            }
+        }
     }
 }
+
+//    location    43; 660      38; 41   
+//    size        28; 22       43; 30

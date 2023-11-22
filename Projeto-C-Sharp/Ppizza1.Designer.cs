@@ -51,7 +51,7 @@
             this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Location = new System.Drawing.Point(61, 45);
+            this.btnClose.Location = new System.Drawing.Point(40, 43);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(41, 31);
             this.btnClose.TabIndex = 13;
@@ -65,9 +65,9 @@
             this.btnPpizza2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnPpizza2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnPpizza2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPpizza2.Location = new System.Drawing.Point(1276, 659);
+            this.btnPpizza2.Location = new System.Drawing.Point(1277, 662);
             this.btnPpizza2.Name = "btnPpizza2";
-            this.btnPpizza2.Size = new System.Drawing.Size(30, 20);
+            this.btnPpizza2.Size = new System.Drawing.Size(29, 22);
             this.btnPpizza2.TabIndex = 14;
             this.btnPpizza2.UseVisualStyleBackColor = false;
             this.btnPpizza2.Click += new System.EventHandler(this.btnPpizza2_Click);

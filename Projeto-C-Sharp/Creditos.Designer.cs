@@ -51,7 +51,7 @@
             this.btnCloseCreditos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnCloseCreditos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnCloseCreditos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCloseCreditos.Location = new System.Drawing.Point(60, 45);
+            this.btnCloseCreditos.Location = new System.Drawing.Point(41, 43);
             this.btnCloseCreditos.Name = "btnCloseCreditos";
             this.btnCloseCreditos.Size = new System.Drawing.Size(42, 30);
             this.btnCloseCreditos.TabIndex = 1;

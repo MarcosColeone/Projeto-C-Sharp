@@ -51,9 +51,9 @@
             this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Location = new System.Drawing.Point(61, 43);
+            this.btnClose.Location = new System.Drawing.Point(39, 41);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(40, 32);
+            this.btnClose.Size = new System.Drawing.Size(41, 30);
             this.btnClose.TabIndex = 8;
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -65,7 +65,7 @@
             this.btnDsorvete2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnDsorvete2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnDsorvete2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDsorvete2.Location = new System.Drawing.Point(1275, 656);
+            this.btnDsorvete2.Location = new System.Drawing.Point(1276, 660);
             this.btnDsorvete2.Name = "btnDsorvete2";
             this.btnDsorvete2.Size = new System.Drawing.Size(28, 22);
             this.btnDsorvete2.TabIndex = 9;

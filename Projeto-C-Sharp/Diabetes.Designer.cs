@@ -54,9 +54,9 @@
             this.btnClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Location = new System.Drawing.Point(58, 47);
+            this.btnClose.Location = new System.Drawing.Point(39, 42);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(43, 27);
+            this.btnClose.Size = new System.Drawing.Size(43, 31);
             this.btnClose.TabIndex = 2;
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -70,7 +70,7 @@
             this.btnDintrodução.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDintrodução.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDintrodução.ForeColor = System.Drawing.Color.White;
-            this.btnDintrodução.Location = new System.Drawing.Point(77, 308);
+            this.btnDintrodução.Location = new System.Drawing.Point(76, 308);
             this.btnDintrodução.Name = "btnDintrodução";
             this.btnDintrodução.Size = new System.Drawing.Size(324, 110);
             this.btnDintrodução.TabIndex = 4;
